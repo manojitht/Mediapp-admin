@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1023px) {
+  body {
+  }
+  .section {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section {
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    margin-bottom: 15px;
+  }
+
+  button {
+  }
+}
