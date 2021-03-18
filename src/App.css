@@ -1,38 +1,52 @@
 .App {
   text-align: center;
+  min-width: 156px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputs {
+  height: 20px;
+  min-width: 500px;
+  margin-top: 25px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid rgb(158, 154, 154);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin-top: 150px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: dimgray;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: rgb(4, 122, 24);
+  font-size: 15px;
+  width: fit-content;
+  height: 50px;
+  background-color: rgb(184, 241, 126);
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  margin-top: 25px;
+  min-width: 533px;
+  height: 35px;
+  background-color: rgb(241, 97, 45);
+  border: none;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: rgb(255, 68, 0);
 }
