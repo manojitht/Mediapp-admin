@@ -12,7 +12,7 @@ function App() {
       <h3 className="mainfont">MediApp<br/>Create your admin account!</h3>
       </div>
     <div className="section">
-      <h1>Create admin account!</h1>
+      <h1>Register here as an admin!</h1>
       <Register/>
     </div>
     </body>

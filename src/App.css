@@ -1,6 +1,6 @@
 body {
   /* background-image: url(./components/images/backpicture.jpg); */
-  background-color: rgb(241, 236, 245);
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 }
 
 .section:hover {
-  box-shadow: 2px 2px 15px 10px rgba(113, 112, 114, 0.596);
+  box-shadow: 2px 2px 15px 10px rgba(236, 179, 72, 0.596);
   transition: 1.5s;
 }
 
@@ -77,7 +77,7 @@ footer h5 {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   font-size: 70px;
-  color: rgb(240, 137, 20);
+  color: rgb(240, 163, 20);
 }
 
 button {
@@ -97,4 +97,5 @@ button {
 
 button:hover {
   background-color: rgb(255, 68, 0);
+  transition: 0.5s;
 }

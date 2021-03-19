@@ -4,7 +4,7 @@ import firebase from '../Firebase';
 
 export default function Register() {
 
-    const [ name, setName] = useState('');
+    const [ name, setName] = useState(''); // set the local state 
     const [ email, setEmail] = useState('');
     const [ password, setPassword] = useState('');
 
@@ -20,7 +20,7 @@ export default function Register() {
         setPassword(e.target.value);
     };
 
-    const createUser = () => {
+    const createUser = () => {  //check for the validation and enter on the DB
 
         var Cpassword = document.getElementById('password').value;
         var confirmPassword = document.getElementById('confirm').value;
@@ -40,7 +40,7 @@ export default function Register() {
                     password
                 };
         
-                create.child(name).set(put);
+                create.child(name).set(put); // push function for firebase creates the auto generate key, hence set function used here.
                 
                 document.getElementById('displayMessage').style.display = "block";
                 document.getElementById('displayMessage').innerHTML = `${name}, your mediapp admin account created successfully!`;
@@ -61,7 +61,7 @@ export default function Register() {
     }
 
     return(
-        //this React . Fragments tag helps to combine the all tags into one...
+        //this React . Fragments tag helps to combine the all tags into one parent element...
     <> 
      <input className="inputs" id="username" placeholder="username" onChange={handleOnChangen} value={name}/><br/>
      <input className="inputs" id="email" placeholder="email" onChange={handleOnChangee} value={email}/><br/>
