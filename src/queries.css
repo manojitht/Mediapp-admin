@@ -1,12 +1,63 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1423px) {
   body {
+    text-align: center;
+    margin: auto;
   }
   .section {
     width: 80%;
+    margin-right: 20px;
+  }
+  .main {
+    margin: 120px 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    text-align: center;
+    margin: auto;
+  }
+  .section {
+    width: 80%;
+    margin-top: 80px;
+  }
+  .main {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 1226px) {
+  body {
+    text-align: center;
+    margin: auto;
+  }
+  .section {
+    width: 80%;
+    margin-top: 80px;
+  }
+  .main {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  body {
+    align-items: center;
+  }
+  .section {
+    width: 500px;
+  }
+  .main {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 480px) {
+ 
+  .body{
+    margin-left: 20px;
+  }
+
   .section {
     width: 100%;
   }
@@ -15,8 +66,5 @@
   input[type="email"],
   input[type="password"] {
     margin-bottom: 15px;
-  }
-
-  button {
   }
 }
