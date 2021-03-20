@@ -77,7 +77,18 @@ footer h5 {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   font-size: 70px;
+  color: rgb(104, 103, 101);
+}
+
+.mainfont span {
   color: rgb(240, 163, 20);
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.mainfont span:hover {
+  color: rgb(241, 81, 7);
+  transition: 1s;
 }
 
 button {
