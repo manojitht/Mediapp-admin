@@ -53,7 +53,7 @@ export default function Register() {
                 else{
                     document.getElementById('displayMessage').style.display = "block";
                     document.getElementById('displayMessage').style.color = "red";
-                    document.getElementById('displayMessage').innerHTML = " Enter all the details correctly!";
+                    document.getElementById('displayMessage').innerHTML = "Some fields are empty!";
                 }
         }
 

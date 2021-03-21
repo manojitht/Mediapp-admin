@@ -9,7 +9,7 @@ function App() {
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;900&display=swap" rel="stylesheet"></link>
     <body>
       <div className="main">
-      <h3 className="mainfont"><span>MediApp</span><br/>Create your admin account!</h3>
+      <h3 className="mainfont"><span>MediApp +</span><br/>Create your admin account!</h3>
       </div>
     <div className="section">
       <h1>Register here as an admin!</h1>

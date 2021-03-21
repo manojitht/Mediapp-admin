@@ -1,5 +1,5 @@
 body {
-  /* background-image: url(./components/images/backpicture.jpg); */
+  /* background-image: url(./components/images/airflow.svg); */
   background-color: white;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .section:hover {
-  box-shadow: 2px 2px 15px 10px rgba(236, 179, 72, 0.596);
+  box-shadow: 2px 2px 15px 10px rgba(101, 202, 233, 0.596);
   transition: 1.5s;
 }
 
@@ -49,7 +49,7 @@ h2 {
   font-weight: 400;
   color: rgb(24, 151, 45);
   font-size: 15px;
-  height: 50px;
+  height: 30px;
   display: none;
 }
 
@@ -65,7 +65,6 @@ footer h5 {
   float: left;
   margin: 120px 50px 0px;
   height: 380px;
-  background-color: rgb(255, 255, 255);
   width: 600px;
   text-align: left;
   padding: 10px 100px 50px;
@@ -77,7 +76,7 @@ footer h5 {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   font-size: 70px;
-  color: rgb(104, 103, 101);
+  color: rgb(100, 99, 98);
 }
 
 .mainfont span {
@@ -104,6 +103,7 @@ button {
   font-size: 15px;
   border-radius: 5px;
   outline: none;
+  letter-spacing: 1px;
 }
 
 button:hover {
