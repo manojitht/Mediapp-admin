@@ -12,9 +12,9 @@ body {
   width: 550px;
   height: 500px;
   background-color: rgb(255, 255, 255);
-  margin: 0 auto;
+  margin: auto;
   border-radius: 10px;
-  margin-top: 150px;
+  margin-top: 80px;
   box-shadow: 2px 2px 15px 10px rgba(200, 198, 204, 0.596);
 }
 
@@ -54,7 +54,7 @@ h2 {
 }
 
 footer h5 {
-  margin-top: 220px;
+  margin-top: 120px;
   margin-left: 200px;
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -63,7 +63,7 @@ footer h5 {
 
 .main {
   float: left;
-  margin: 120px 50px 0px;
+  margin: auto;
   height: 380px;
   width: 600px;
   text-align: left;

@@ -4,11 +4,15 @@
     margin: auto;
   }
   .section {
-    width: 80%;
+    width: 70%;
     margin-right: 20px;
   }
   .main {
-    margin: 120px 20px 0px;
+    margin: auto;
+  }
+
+  .mainfont{
+    margin: auto;
   }
 }
 
